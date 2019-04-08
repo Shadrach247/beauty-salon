@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: helvetica, times,sans-serif;
+    font-size: 14px;
+}
+section{
+    margin-bottom: 10px;
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+p{
+    line-height: 1.6em;
+}
+h1, h2{
+    margin: 5px 0;
+    font-family: "Cosmic Sans MS",cursive, sans-serif;
+    color: #cd352a;
+}
+.container{
+    width: 977px;
+    margin: 0 auto;
+}
+.clear{ 
+    clear: both;
+}
+/*header*/
+.logo{
+    width: 200px;
+    float: left;
+    margin-top: 10px; 
+}.header-top{
+    width: 300px;
+    text-align: right;
+    float: right;
+    font-size: 16px;
+    color: #cc66ca;
+}
+.header-top span{
+    color: #d2352c;
+    margin: 0 5px;
+}
+nav{
+    float: right;
+    margin-top: 5px;
+    width: 500px;
+}
+nav ul{
+    padding: 5px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 15px;
+}nav ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*banner*/
+#banner{
+    margin-top: 10px;
+}
+/*product area*/
+.products-div{
+    width: 770px;
+    height: 200px;
+    float: left;
+}
+.feature{
+    width: 200px;
+    float: right;
+}
+.single{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+}
+.single a{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.last{
+    margin-right: 0;
+}
+/*deals*/
+.deal{
+    width: 200px;
+    height: 250px;
+    float: right;
+    border: 1px solid #999;
+    text-align: center;
+}
+.deal h3{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.deal a{
+    display: block;
+    margin: 5px 0;
+    color: #4e5346;
+}
+.deal strong{
+    color: #d2352c;
+    font-size: 18px;
+}
+/*footer*/
+footer{
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    font-weight: bold;
+    }
